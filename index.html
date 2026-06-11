@@ -1,11 +1,12 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Abhina Anil — Engineering Systems. Building Products.</title>
-<meta name="description" content="Abhina Anil — Mechanical Engineering graduate (CGPA 8.84, CS Minor) from TKM College of Engineering, Kollam. Intern at Trane Technologies, Bengaluru. Targeting Product Manager, Product Analyst, PLM, and Digital Transformation roles. Design engineering, AI-driven manufacturing, simulation, and industrial innovation.">
-<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Abhina Anil — Mechanical Engineering graduate (CGPA 8.84, CS Minor) from TKM College of Engineering, Kollam. Intern at Trane Technologies, Bengaluru. Targeting Product Manager, Project Coordinator, and Digital Transformation roles. Hands-on experience in project coordination, process improvement, AI-driven operations, and industrial systems.">
+<meta name="robots" content="index, follow">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -42,204 +43,204 @@ img{max-width:100%;display:block}
 
 /* ── NAV ── */
 .nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:0 5vw;height:64px;display:flex;align-items:center;justify-content:space-between;background:rgba(8,8,8,.88);backdrop-filter:blur(20px);border-bottom:1px solid transparent;transition:border-color .3s}
-.nav.scrolled{border-color:var(--border)}
-.nav-logo{font-family:var(--font2);font-weight:700;font-size:1.1rem;letter-spacing:-.01em}
-.nav-logo span{color:var(--accent)}
+.nav.scrolled{border-color:var(–border)}
+.nav-logo{font-family:var(–font2);font-weight:700;font-size:1.1rem;letter-spacing:-.01em}
+.nav-logo span{color:var(–accent)}
 .nav-links{display:flex;gap:2.25rem;align-items:center}
-.nav-links a{font-size:.85rem;color:var(--text2);transition:color .2s;font-weight:500}
-.nav-links a:hover{color:var(--text)}
-.nav-cta{padding:.45rem 1.1rem;border:1px solid var(--border2);border-radius:6px;font-size:.85rem;color:var(--text);transition:all .2s}
-.nav-cta:hover{background:var(--card2);border-color:var(--accent)}
+.nav-links a{font-size:.85rem;color:var(–text2);transition:color .2s;font-weight:500}
+.nav-links a:hover{color:var(–text)}
+.nav-cta{padding:.45rem 1.1rem;border:1px solid var(–border2);border-radius:6px;font-size:.85rem;color:var(–text);transition:all .2s}
+.nav-cta:hover{background:var(–card2);border-color:var(–accent)}
 .nav-toggle{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px}
-.nav-toggle span{width:22px;height:2px;background:var(--text2);border-radius:2px;transition:all .3s}
+.nav-toggle span{width:22px;height:2px;background:var(–text2);border-radius:2px;transition:all .3s}
 
 /* ── HERO ── */
 .hero{position:relative;min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:120px 5vw 80px;overflow:hidden}
 #hero-canvas{position:absolute;inset:0;width:100%;height:100%;opacity:.5;pointer-events:none}
 .hero-content{position:relative;z-index:2;max-width:840px}
-.hero-badge{display:inline-flex;align-items:center;gap:.5rem;padding:.35rem 1rem;border:1px solid var(--border2);border-radius:999px;font-size:.75rem;color:var(--text2);margin-bottom:2rem;letter-spacing:.05em;text-transform:uppercase}
-.hero-badge-dot{width:6px;height:6px;border-radius:50%;background:var(--green);animation:pulse 2s infinite}
+.hero-badge{display:inline-flex;align-items:center;gap:.5rem;padding:.35rem 1rem;border:1px solid var(–border2);border-radius:999px;font-size:.75rem;color:var(–text2);margin-bottom:2rem;letter-spacing:.05em;text-transform:uppercase}
+.hero-badge-dot{width:6px;height:6px;border-radius:50%;background:var(–green);animation:pulse 2s infinite}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
-.hero h1{font-family:var(--font2);font-size:clamp(2.6rem,6.5vw,5rem);font-weight:700;line-height:1.08;letter-spacing:-.035em;margin-bottom:1.5rem}
-.hero h1 .accent{color:var(--accent)}
-.hero h1 .dim{color:var(--text2)}
-.hero p{font-size:clamp(.95rem,1.8vw,1.15rem);color:var(--text2);max-width:580px;margin:0 auto 2.5rem;line-height:1.75}
+.hero h1{font-family:var(–font2);font-size:clamp(2.6rem,6.5vw,5rem);font-weight:700;line-height:1.08;letter-spacing:-.035em;margin-bottom:1.5rem}
+.hero h1 .accent{color:var(–accent)}
+.hero h1 .dim{color:var(–text2)}
+.hero p{font-size:clamp(.95rem,1.8vw,1.15rem);color:var(–text2);max-width:580px;margin:0 auto 2.5rem;line-height:1.75}
 .hero-btns{display:flex;gap:.875rem;justify-content:center;flex-wrap:wrap}
 .btn{padding:.75rem 1.75rem;border-radius:8px;font-size:.9rem;font-weight:500;cursor:pointer;transition:all .2s;border:none;display:inline-flex;align-items:center;gap:.5rem}
-.btn-primary{background:var(--accent);color:#fff}
-.btn-primary:hover{background:var(--accent2);transform:translateY(-1px)}
-.btn-outline{background:transparent;border:1px solid var(--border2);color:var(--text)}
-.btn-outline:hover{border-color:var(--accent);background:rgba(99,102,241,.07)}
-.hero-scroll{position:absolute;bottom:2.5rem;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:.5rem;color:var(--text3);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase}
-.hero-scroll-line{width:1px;height:40px;background:linear-gradient(to bottom,var(--accent),transparent);animation:scrollline 2s ease-in-out infinite}
+.btn-primary{background:var(–accent);color:#fff}
+.btn-primary:hover{background:var(–accent2);transform:translateY(-1px)}
+.btn-outline{background:transparent;border:1px solid var(–border2);color:var(–text)}
+.btn-outline:hover{border-color:var(–accent);background:rgba(99,102,241,.07)}
+.hero-scroll{position:absolute;bottom:2.5rem;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:.5rem;color:var(–text3);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase}
+.hero-scroll-line{width:1px;height:40px;background:linear-gradient(to bottom,var(–accent),transparent);animation:scrollline 2s ease-in-out infinite}
 @keyframes scrollline{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform:scaleY(1);transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
 
 /* ── SECTION SHELL ── */
 .section{padding:96px 5vw;max-width:1200px;margin:0 auto}
-.section-label{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin-bottom:.75rem;font-weight:600}
-.section-title{font-family:var(--font2);font-size:clamp(1.9rem,3.8vw,2.9rem);font-weight:700;letter-spacing:-.025em;margin-bottom:1rem;line-height:1.15}
-.section-sub{color:var(--text2);font-size:1rem;max-width:540px;line-height:1.75;margin-bottom:3rem}
-.divider{width:100%;height:1px;background:var(--border)}
+.section-label{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(–accent);margin-bottom:.75rem;font-weight:600}
+.section-title{font-family:var(–font2);font-size:clamp(1.9rem,3.8vw,2.9rem);font-weight:700;letter-spacing:-.025em;margin-bottom:1rem;line-height:1.15}
+.section-sub{color:var(–text2);font-size:1rem;max-width:540px;line-height:1.75;margin-bottom:3rem}
+.divider{width:100%;height:1px;background:var(–border)}
 
 /* ── ABOUT ── */
 .about-grid{display:grid;grid-template-columns:5fr 7fr;gap:5rem;align-items:start}
 .about-photo-wrap{position:relative}
-.about-photo{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:var(--radius);border:1px solid var(--border)}
-.about-photo-badge{position:absolute;bottom:-1.25rem;right:-1.25rem;background:var(--card2);border:1px solid var(--border2);border-radius:var(--radius);padding:1rem 1.25rem}
-.about-photo-badge-label{font-size:.7rem;color:var(--text3);margin-bottom:.15rem}
-.about-photo-badge-val{font-family:var(--font2);font-weight:600;font-size:.95rem}
+.about-photo{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:var(–radius);border:1px solid var(–border)}
+.about-photo-badge{position:absolute;bottom:-1.25rem;right:-1.25rem;background:var(–card2);border:1px solid var(–border2);border-radius:var(–radius);padding:1rem 1.25rem}
+.about-photo-badge-label{font-size:.7rem;color:var(–text3);margin-bottom:.15rem}
+.about-photo-badge-val{font-family:var(–font2);font-weight:600;font-size:.95rem}
 .timeline{margin-top:2rem;position:relative;padding-left:1.75rem}
-.timeline::before{content:"";position:absolute;left:0;top:.5rem;bottom:0;width:1px;background:linear-gradient(to bottom,var(--accent) 0%,rgba(99,102,241,.08) 100%)}
+.timeline::before{content:””;position:absolute;left:0;top:.5rem;bottom:0;width:1px;background:linear-gradient(to bottom,var(–accent) 0%,rgba(99,102,241,.08) 100%)}
 .tl-item{position:relative;margin-bottom:2.25rem;opacity:0;transform:translateX(18px);transition:opacity .6s,transform .6s}
 .tl-item.visible{opacity:1;transform:none}
-.tl-item::before{content:"";position:absolute;left:-1.75rem;top:.55rem;width:8px;height:8px;border-radius:50%;background:var(--accent);border:2px solid var(--bg);box-shadow:0 0 0 2px var(--accent)}
-.tl-year{font-size:.7rem;color:var(--accent);font-weight:600;margin-bottom:.2rem;letter-spacing:.06em;text-transform:uppercase}
-.tl-title{font-family:var(--font2);font-weight:600;font-size:.975rem;margin-bottom:.25rem}
-.tl-desc{font-size:.875rem;color:var(--text2);line-height:1.65}
+.tl-item::before{content:””;position:absolute;left:-1.75rem;top:.55rem;width:8px;height:8px;border-radius:50%;background:var(–accent);border:2px solid var(–bg);box-shadow:0 0 0 2px var(–accent)}
+.tl-year{font-size:.7rem;color:var(–accent);font-weight:600;margin-bottom:.2rem;letter-spacing:.06em;text-transform:uppercase}
+.tl-title{font-family:var(–font2);font-weight:600;font-size:.975rem;margin-bottom:.25rem}
+.tl-desc{font-size:.875rem;color:var(–text2);line-height:1.65}
 
 /* ── EXPERIENCE ── */
 .exp-grid{display:grid;gap:1.25rem}
-.exp-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:2rem;opacity:0;transform:translateY(22px);transition:opacity .5s,transform .5s}
+.exp-card{background:var(–card);border:1px solid var(–border);border-radius:var(–radius);padding:2rem;opacity:0;transform:translateY(22px);transition:opacity .5s,transform .5s}
 .exp-card.visible{opacity:1;transform:none}
-.exp-card:hover{border-color:var(--border2);background:var(--card2)}
+.exp-card:hover{border-color:var(–border2);background:var(–card2)}
 .exp-header{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;margin-bottom:1.5rem;flex-wrap:wrap}
-.exp-company{font-family:var(--font2);font-weight:700;font-size:1.2rem}
-.exp-period{font-size:.75rem;color:var(--text3);padding:.3rem .8rem;border:1px solid var(--border2);border-radius:999px;white-space:nowrap}
-.exp-role{font-size:.875rem;color:var(--accent);font-weight:500;margin-bottom:.5rem}
-.exp-location{font-size:.8rem;color:var(--text3);margin-bottom:1.25rem}
+.exp-company{font-family:var(–font2);font-weight:700;font-size:1.2rem}
+.exp-period{font-size:.75rem;color:var(–text3);padding:.3rem .8rem;border:1px solid var(–border2);border-radius:999px;white-space:nowrap}
+.exp-role{font-size:.875rem;color:var(–accent);font-weight:500;margin-bottom:.5rem}
+.exp-location{font-size:.8rem;color:var(–text3);margin-bottom:1.25rem}
 .case-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:.875rem}
-.case-block{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius2);padding:.875rem 1rem}
-.case-block-label{font-size:.65rem;text-transform:uppercase;letter-spacing:.12em;color:var(--text3);margin-bottom:.4rem;font-weight:600}
-.case-block-content{font-size:.825rem;color:var(--text2);line-height:1.6}
+.case-block{background:var(–bg2);border:1px solid var(–border);border-radius:var(–radius2);padding:.875rem 1rem}
+.case-block-label{font-size:.65rem;text-transform:uppercase;letter-spacing:.12em;color:var(–text3);margin-bottom:.4rem;font-weight:600}
+.case-block-content{font-size:.825rem;color:var(–text2);line-height:1.6}
 .tag-list{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:1.25rem}
-.tag{padding:.25rem .65rem;border-radius:999px;font-size:.72rem;border:1px solid var(--border2);color:var(--text2)}
+.tag{padding:.25rem .65rem;border-radius:999px;font-size:.72rem;border:1px solid var(–border2);color:var(–text2)}
 
 /* ── EXTRA EXP ── */
 .extra-exp-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem;margin-top:2rem}
-.extra-exp-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius2);padding:1.25rem 1.5rem;opacity:0;transform:translateY(16px);transition:opacity .5s,transform .5s}
+.extra-exp-card{background:var(–card);border:1px solid var(–border);border-radius:var(–radius2);padding:1.25rem 1.5rem;opacity:0;transform:translateY(16px);transition:opacity .5s,transform .5s}
 .extra-exp-card.visible{opacity:1;transform:none}
-.extra-exp-card:hover{border-color:var(--border2)}
-.extra-exp-card h4{font-family:var(--font2);font-weight:600;font-size:.9rem;margin-bottom:.2rem}
-.extra-exp-card .role{font-size:.8rem;color:var(--accent);margin-bottom:.2rem}
-.extra-exp-card .period{font-size:.75rem;color:var(--text3);margin-bottom:.6rem}
-.extra-exp-card p{font-size:.825rem;color:var(--text2);line-height:1.6}
+.extra-exp-card:hover{border-color:var(–border2)}
+.extra-exp-card h4{font-family:var(–font2);font-weight:600;font-size:.9rem;margin-bottom:.2rem}
+.extra-exp-card .role{font-size:.8rem;color:var(–accent);margin-bottom:.2rem}
+.extra-exp-card .period{font-size:.75rem;color:var(–text3);margin-bottom:.6rem}
+.extra-exp-card p{font-size:.825rem;color:var(–text2);line-height:1.6}
 
 /* ── FEATURED ── */
-.featured-section{padding:96px 5vw;background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.featured-section{padding:96px 5vw;background:var(–bg2);border-top:1px solid var(–border);border-bottom:1px solid var(–border)}
 .featured-inner{max-width:1200px;margin:0 auto}
 .featured-grid{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:start;margin-top:2.5rem}
 .featured-media{display:grid;grid-template-columns:1fr 1fr;gap:.875rem}
-.featured-img{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;color:var(--text3);font-size:.75rem;flex-direction:column;gap:.4rem}
+.featured-img{background:var(–card);border:1px solid var(–border);border-radius:var(–radius);aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;color:var(–text3);font-size:.75rem;flex-direction:column;gap:.4rem}
 .featured-img.tall{grid-row:span 2;aspect-ratio:unset}
 .featured-img svg{opacity:.22;width:36px;height:36px}
 .featured-steps{display:flex;flex-direction:column;gap:1.5rem;margin-top:1.75rem}
 .featured-step{display:flex;gap:1.25rem;align-items:flex-start;opacity:0;transform:translateX(18px);transition:opacity .5s,transform .5s}
 .featured-step.visible{opacity:1;transform:none}
-.step-num{width:34px;height:34px;flex-shrink:0;border-radius:50%;border:1px solid var(--accent);display:flex;align-items:center;justify-content:center;font-size:.75rem;font-weight:600;color:var(--accent)}
-.step-body h4{font-family:var(--font2);font-weight:600;font-size:.925rem;margin-bottom:.2rem}
-.step-body p{font-size:.85rem;color:var(--text2);line-height:1.65}
+.step-num{width:34px;height:34px;flex-shrink:0;border-radius:50%;border:1px solid var(–accent);display:flex;align-items:center;justify-content:center;font-size:.75rem;font-weight:600;color:var(–accent)}
+.step-body h4{font-family:var(–font2);font-weight:600;font-size:.925rem;margin-bottom:.2rem}
+.step-body p{font-size:.85rem;color:var(–text2);line-height:1.65}
 
 /* ── PROJECTS ── */
 .projects-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:1.125rem}
-.proj-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1.75rem;cursor:pointer;opacity:0;transform:translateY(22px);transition:opacity .5s,transform .5s;position:relative;overflow:hidden}
+.proj-card{background:var(–card);border:1px solid var(–border);border-radius:var(–radius);padding:1.75rem;cursor:pointer;opacity:0;transform:translateY(22px);transition:opacity .5s,transform .5s;position:relative;overflow:hidden}
 .proj-card.visible{opacity:1;transform:none}
-.proj-card::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at var(--mx,50%) var(--my,50%),rgba(99,102,241,.07) 0%,transparent 60%);opacity:0;transition:opacity .3s}
+.proj-card::before{content:””;position:absolute;inset:0;background:radial-gradient(circle at var(–mx,50%) var(–my,50%),rgba(99,102,241,.07) 0%,transparent 60%);opacity:0;transition:opacity .3s}
 .proj-card:hover::before{opacity:1}
-.proj-card:hover{border-color:var(--border2);transform:translateY(-2px)}
-.proj-card-tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.1em;color:var(--accent);font-weight:600;margin-bottom:.7rem}
-.proj-card h3{font-family:var(--font2);font-weight:600;font-size:1.05rem;margin-bottom:.7rem;line-height:1.35}
-.proj-card p{font-size:.85rem;color:var(--text2);line-height:1.65;margin-bottom:1.25rem}
+.proj-card:hover{border-color:var(–border2);transform:translateY(-2px)}
+.proj-card-tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.1em;color:var(–accent);font-weight:600;margin-bottom:.7rem}
+.proj-card h3{font-family:var(–font2);font-weight:600;font-size:1.05rem;margin-bottom:.7rem;line-height:1.35}
+.proj-card p{font-size:.85rem;color:var(–text2);line-height:1.65;margin-bottom:1.25rem}
 .proj-card-footer{display:flex;align-items:center;justify-content:space-between}
 .proj-tags{display:flex;gap:.35rem;flex-wrap:wrap}
-.proj-tag{font-size:.68rem;padding:.2rem .55rem;border-radius:999px;border:1px solid var(--border2);color:var(--text3)}
-.proj-arrow{color:var(--text3);transition:all .2s;font-size:1rem}
-.proj-card:hover .proj-arrow{color:var(--accent);transform:translateX(3px)}
+.proj-tag{font-size:.68rem;padding:.2rem .55rem;border-radius:999px;border:1px solid var(–border2);color:var(–text3)}
+.proj-arrow{color:var(–text3);transition:all .2s;font-size:1rem}
+.proj-card:hover .proj-arrow{color:var(–accent);transform:translateX(3px)}
 
 /* ── SKILLS ── */
 .skills-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:1rem}
-.skill-cluster{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;opacity:0;transform:translateY(18px);transition:opacity .5s,transform .5s}
+.skill-cluster{background:var(–card);border:1px solid var(–border);border-radius:var(–radius);padding:1.5rem;opacity:0;transform:translateY(18px);transition:opacity .5s,transform .5s}
 .skill-cluster.visible{opacity:1;transform:none}
-.skill-cluster:hover{border-color:var(--accent);background:var(--card2)}
+.skill-cluster:hover{border-color:var(–accent);background:var(–card2)}
 .skill-cluster-icon{font-size:1.35rem;margin-bottom:.875rem}
-.skill-cluster h3{font-family:var(--font2);font-weight:600;font-size:.9rem;margin-bottom:.75rem}
+.skill-cluster h3{font-family:var(–font2);font-weight:600;font-size:.9rem;margin-bottom:.75rem}
 .skill-pills{display:flex;flex-wrap:wrap;gap:.35rem}
-.skill-pill{padding:.25rem .65rem;border-radius:999px;font-size:.72rem;border:1px solid var(--border2);color:var(--text2);transition:all .2s}
-.skill-cluster:hover .skill-pill{border-color:rgba(99,102,241,.3);color:var(--text)}
+.skill-pill{padding:.25rem .65rem;border-radius:999px;font-size:.72rem;border:1px solid var(–border2);color:var(–text2);transition:all .2s}
+.skill-cluster:hover .skill-pill{border-color:rgba(99,102,241,.3);color:var(–text)}
 
 /* ── PLAYGROUND ── */
-.playground-section{padding:96px 5vw;background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.playground-section{padding:96px 5vw;background:var(–bg2);border-top:1px solid var(–border);border-bottom:1px solid var(–border)}
 .playground-inner{max-width:1200px;margin:0 auto}
 .playground-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.125rem;margin-top:2.5rem}
-.pg-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1.75rem;min-height:260px;display:flex;flex-direction:column;justify-content:space-between;opacity:0;transform:translateY(22px);transition:opacity .5s,transform .5s}
+.pg-card{background:var(–card);border:1px solid var(–border);border-radius:var(–radius);padding:1.75rem;min-height:260px;display:flex;flex-direction:column;justify-content:space-between;opacity:0;transform:translateY(22px);transition:opacity .5s,transform .5s}
 .pg-card.visible{opacity:1;transform:none}
-.pg-card:hover{border-color:var(--border2)}
-.pg-card-title{font-family:var(--font2);font-weight:600;font-size:1rem;margin-bottom:.4rem}
-.pg-card-sub{font-size:.825rem;color:var(--text2);line-height:1.65}
+.pg-card:hover{border-color:var(–border2)}
+.pg-card-title{font-family:var(–font2);font-weight:600;font-size:1rem;margin-bottom:.4rem}
+.pg-card-sub{font-size:.825rem;color:var(–text2);line-height:1.65}
 .workflow-steps{display:flex;align-items:center;gap:.4rem;margin-top:1.25rem;flex-wrap:wrap}
-.wf-step{padding:.35rem .75rem;border-radius:6px;font-size:.72rem;background:rgba(99,102,241,.08);border:1px solid rgba(99,102,241,.18);color:var(--accent2)}
-.wf-arrow{color:var(--text3);font-size:.85rem}
+.wf-step{padding:.35rem .75rem;border-radius:6px;font-size:.72rem;background:rgba(99,102,241,.08);border:1px solid rgba(99,102,241,.18);color:var(–accent2)}
+.wf-arrow{color:var(–text3);font-size:.85rem}
 .material-table{width:100%;border-collapse:collapse;margin-top:.875rem;font-size:.78rem}
-.material-table th{text-align:left;padding:.45rem .7rem;color:var(--text3);font-weight:500;border-bottom:1px solid var(--border)}
-.material-table td{padding:.45rem .7rem;color:var(--text2);border-bottom:1px solid var(--border)}
+.material-table th{text-align:left;padding:.45rem .7rem;color:var(–text3);font-weight:500;border-bottom:1px solid var(–border)}
+.material-table td{padding:.45rem .7rem;color:var(–text2);border-bottom:1px solid var(–border)}
 .material-table tr:last-child td{border:none}
 .stress-bar-wrap{margin-top:.875rem;display:flex;flex-direction:column;gap:.55rem}
-.stress-item{display:flex;align-items:center;gap:.7rem;font-size:.78rem;color:var(--text2)}
+.stress-item{display:flex;align-items:center;gap:.7rem;font-size:.78rem;color:var(–text2)}
 .stress-item-label{width:88px;flex-shrink:0}
-.stress-bar-bg{flex:1;height:5px;background:var(--border);border-radius:999px;overflow:hidden}
-.stress-bar-fill{height:100%;border-radius:999px;background:linear-gradient(90deg,var(--accent),var(--accent2));transform-origin:left;transform:scaleX(0);transition:transform 1.2s cubic-bezier(.16,1,.3,1)}
+.stress-bar-bg{flex:1;height:5px;background:var(–border);border-radius:999px;overflow:hidden}
+.stress-bar-fill{height:100%;border-radius:999px;background:linear-gradient(90deg,var(–accent),var(–accent2));transform-origin:left;transform:scaleX(0);transition:transform 1.2s cubic-bezier(.16,1,.3,1)}
 
 /* ── LESSONS ── */
 .lessons-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:1.125rem}
-.lesson-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1.75rem;opacity:0;transform:translateY(18px);transition:opacity .5s,transform .5s}
+.lesson-card{background:var(–card);border:1px solid var(–border);border-radius:var(–radius);padding:1.75rem;opacity:0;transform:translateY(18px);transition:opacity .5s,transform .5s}
 .lesson-card.visible{opacity:1;transform:none}
 .lesson-icon{font-size:1.6rem;margin-bottom:.875rem}
-.lesson-card h3{font-family:var(--font2);font-weight:600;font-size:.95rem;margin-bottom:.875rem;line-height:1.4}
+.lesson-card h3{font-family:var(–font2);font-weight:600;font-size:.95rem;margin-bottom:.875rem;line-height:1.4}
 .lesson-list{display:flex;flex-direction:column;gap:.5rem}
-.lesson-item{font-size:.85rem;color:var(--text2);display:flex;gap:.45rem;align-items:flex-start;line-height:1.55}
-.lesson-item::before{content:"→";color:var(--accent);flex-shrink:0;margin-top:.05rem}
+.lesson-item{font-size:.85rem;color:var(–text2);display:flex;gap:.45rem;align-items:flex-start;line-height:1.55}
+.lesson-item::before{content:“→”;color:var(–accent);flex-shrink:0;margin-top:.05rem}
 
 /* ── CERTIFICATIONS ── */
 .cert-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1.25rem}
-.cert-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;opacity:0;transform:translateY(14px);transition:opacity .5s,transform .5s}
+.cert-card{background:var(–card);border:1px solid var(–border);border-radius:var(–radius);overflow:hidden;opacity:0;transform:translateY(14px);transition:opacity .5s,transform .5s}
 .cert-card.visible{opacity:1;transform:none}
-.cert-card:hover{border-color:var(--border2)}
-.cert-img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:var(--bg2)}
-.cert-img-placeholder{width:100%;aspect-ratio:16/9;background:var(--bg2);display:none;align-items:center;justify-content:center;font-size:2rem;border-bottom:1px solid var(--border)}
+.cert-card:hover{border-color:var(–border2)}
+.cert-img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:var(–bg2)}
+.cert-img-placeholder{width:100%;aspect-ratio:16/9;background:var(–bg2);display:none;align-items:center;justify-content:center;font-size:2rem;border-bottom:1px solid var(–border)}
 .cert-body{padding:1.1rem 1.25rem;display:flex;align-items:flex-start;gap:.875rem}
 .cert-badge{width:38px;height:38px;border-radius:8px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:1.1rem}
 .cert-body-text h4{font-size:.875rem;font-weight:600;margin-bottom:.2rem;line-height:1.4}
-.cert-body-text p{font-size:.775rem;color:var(--text2)}
+.cert-body-text p{font-size:.775rem;color:var(–text2)}
 
 /* ── EXP IMAGE STRIP ── */
 .exp-img-strip{
-  display:flex;
-  gap:.625rem;
-  margin-bottom:1.5rem;
-  overflow-x:auto;
-  padding-bottom:.25rem;
-  scrollbar-width:none;
+display:flex;
+gap:.625rem;
+margin-bottom:1.5rem;
+overflow-x:auto;
+padding-bottom:.25rem;
+scrollbar-width:none;
 }
 .exp-img-strip::-webkit-scrollbar{display:none}
 .exp-img-frame{
-  flex-shrink:0;
-  width:220px;
-  height:140px;
-  border-radius:var(--radius2);
-  overflow:hidden;
-  border:1px solid var(--border);
-  background:var(--bg2);
-  display:flex;align-items:center;justify-content:center;
-  color:var(--text3);font-size:.72rem;flex-direction:column;gap:.35rem;
+flex-shrink:0;
+width:220px;
+height:140px;
+border-radius:var(–radius2);
+overflow:hidden;
+border:1px solid var(–border);
+background:var(–bg2);
+display:flex;align-items:center;justify-content:center;
+color:var(–text3);font-size:.72rem;flex-direction:column;gap:.35rem;
 }
 .exp-img-frame{cursor:pointer}
 .exp-img-frame img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s cubic-bezier(.16,1,.3,1)}
 .exp-img-frame:hover img{transform:scale(1.1)}
 .exp-img-frame svg{opacity:.2;width:28px;height:28px}
-.exp-img-caption{font-size:.7rem;color:var(--text3);margin-top:.3rem}
+.exp-img-caption{font-size:.7rem;color:var(–text3);margin-top:.3rem}
 
 /* ── GALLERY ── */
 .gallery-grid{columns:3;column-gap:.875rem}
-.gallery-item{break-inside:avoid;margin-bottom:.875rem;background:var(--card);border:1px solid var(--border);border-radius:var(--radius);aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;color:var(--text3);font-size:.75rem;flex-direction:column;gap:.35rem;overflow:hidden;position:relative;cursor:pointer}
+.gallery-item{break-inside:avoid;margin-bottom:.875rem;background:var(–card);border:1px solid var(–border);border-radius:var(–radius);aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;color:var(–text3);font-size:.75rem;flex-direction:column;gap:.35rem;overflow:hidden;position:relative;cursor:pointer}
 .gallery-item img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .4s cubic-bezier(.16,1,.3,1)}
 .gallery-item:hover img{transform:scale(1.08)}
 .gallery-item.tall{aspect-ratio:3/4}
@@ -249,71 +250,71 @@ img{max-width:100%;display:block}
 /* ── LIGHTBOX ── */
 .lightbox{position:fixed;inset:0;z-index:300;background:rgba(0,0,0,.92);backdrop-filter:blur(12px);display:none;align-items:center;justify-content:center;padding:2rem;cursor:zoom-out}
 .lightbox.open{display:flex}
-.lightbox img{max-width:90vw;max-height:88vh;object-fit:contain;border-radius:var(--radius);box-shadow:0 32px 80px rgba(0,0,0,.6);cursor:default}
+.lightbox img{max-width:90vw;max-height:88vh;object-fit:contain;border-radius:var(–radius);box-shadow:0 32px 80px rgba(0,0,0,.6);cursor:default}
 .lightbox-close{position:absolute;top:1.25rem;right:1.25rem;width:36px;height:36px;border-radius:50%;border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;cursor:pointer;color:#fff;font-size:1rem;transition:all .2s}
 .lightbox-close:hover{background:rgba(255,255,255,.18)}
 
 /* ── CONTACT ── */
 .contact-section{padding:120px 5vw;text-align:center}
 .contact-inner{max-width:580px;margin:0 auto}
-.contact-section h2{font-family:var(--font2);font-size:clamp(2rem,4.5vw,3.4rem);font-weight:700;letter-spacing:-.03em;margin-bottom:1.25rem;line-height:1.1}
-.contact-section p{color:var(--text2);font-size:1rem;line-height:1.75;margin-bottom:2.5rem}
+.contact-section h2{font-family:var(–font2);font-size:clamp(2rem,4.5vw,3.4rem);font-weight:700;letter-spacing:-.03em;margin-bottom:1.25rem;line-height:1.1}
+.contact-section p{color:var(–text2);font-size:1rem;line-height:1.75;margin-bottom:2.5rem}
 .contact-links{display:flex;justify-content:center;gap:.875rem;flex-wrap:wrap}
-.contact-link{display:flex;align-items:center;gap:.55rem;padding:.75rem 1.4rem;border:1px solid var(--border2);border-radius:8px;font-size:.875rem;color:var(--text);transition:all .2s}
-.contact-link:hover{border-color:var(--accent);background:rgba(99,102,241,.06);color:var(--accent)}
+.contact-link{display:flex;align-items:center;gap:.55rem;padding:.75rem 1.4rem;border:1px solid var(–border2);border-radius:8px;font-size:.875rem;color:var(–text);transition:all .2s}
+.contact-link:hover{border-color:var(–accent);background:rgba(99,102,241,.06);color:var(–accent)}
 
 /* ── RESUME ── */
-.resume-section{padding:96px 5vw;background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.resume-section{padding:96px 5vw;background:var(–bg2);border-top:1px solid var(–border);border-bottom:1px solid var(–border)}
 .resume-inner{max-width:1200px;margin:0 auto}
 .resume-grid{display:grid;grid-template-columns:220px 1fr;gap:3.5rem;margin-top:2.5rem}
 .resume-sidebar{display:flex;flex-direction:column;gap:.75rem}
-.resume-btn{display:flex;align-items:center;gap:.75rem;padding:.875rem 1.125rem;border:1px solid var(--border2);border-radius:var(--radius2);font-size:.85rem;color:var(--text);cursor:pointer;background:var(--card);transition:all .2s;text-align:left}
-.resume-btn:hover{border-color:var(--accent);background:var(--card2)}
-.resume-btn.active{border-color:var(--accent);background:rgba(99,102,241,.08);color:var(--accent2)}
+.resume-btn{display:flex;align-items:center;gap:.75rem;padding:.875rem 1.125rem;border:1px solid var(–border2);border-radius:var(–radius2);font-size:.85rem;color:var(–text);cursor:pointer;background:var(–card);transition:all .2s;text-align:left}
+.resume-btn:hover{border-color:var(–accent);background:var(–card2)}
+.resume-btn.active{border-color:var(–accent);background:rgba(99,102,241,.08);color:var(–accent2)}
 .resume-panel{display:none}
 .resume-panel.active{display:block}
-.resume-download{width:100%;padding:.875rem;border-radius:var(--radius2);background:var(--accent);color:#fff;font-size:.875rem;font-weight:500;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:.5rem;transition:background .2s;margin-top:.5rem}
-.resume-download:hover{background:var(--accent2)}
-.resume-exp-item{padding:1.25rem;background:var(--card);border:1px solid var(--border);border-radius:var(--radius2);margin-bottom:.875rem}
-.resume-exp-item h4{font-family:var(--font2);font-weight:600;font-size:.925rem;margin-bottom:.4rem}
-.resume-exp-item p{font-size:.85rem;color:var(--text2);line-height:1.65}
+.resume-download{width:100%;padding:.875rem;border-radius:var(–radius2);background:var(–accent);color:#fff;font-size:.875rem;font-weight:500;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:.5rem;transition:background .2s;margin-top:.5rem}
+.resume-download:hover{background:var(–accent2)}
+.resume-exp-item{padding:1.25rem;background:var(–card);border:1px solid var(–border);border-radius:var(–radius2);margin-bottom:.875rem}
+.resume-exp-item h4{font-family:var(–font2);font-weight:600;font-size:.925rem;margin-bottom:.4rem}
+.resume-exp-item p{font-size:.85rem;color:var(–text2);line-height:1.65}
 .resume-exp-meta{display:flex;gap:.875rem;margin-bottom:.6rem;flex-wrap:wrap}
-.resume-exp-meta span{font-size:.775rem;color:var(--text3)}
+.resume-exp-meta span{font-size:.775rem;color:var(–text3)}
 
 /* ── MODAL ── */
 .modal-overlay{position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.85);backdrop-filter:blur(10px);display:none;align-items:center;justify-content:center;padding:2rem}
 .modal-overlay.open{display:flex}
-.modal{background:var(--bg2);border:1px solid var(--border2);border-radius:16px;max-width:740px;width:100%;max-height:85vh;overflow-y:auto;padding:2.5rem;position:relative}
-.modal-close{position:absolute;top:1.25rem;right:1.25rem;width:30px;height:30px;border-radius:50%;border:1px solid var(--border2);background:var(--card);display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--text2);font-size:.9rem;transition:all .2s}
-.modal-close:hover{background:var(--card2);color:var(--text)}
-.modal h2{font-family:var(--font2);font-size:1.55rem;font-weight:700;margin-bottom:.4rem;line-height:1.25}
-.modal .modal-tag{font-size:.78rem;color:var(--accent);font-weight:500;margin-bottom:1.5rem;display:block}
+.modal{background:var(–bg2);border:1px solid var(–border2);border-radius:16px;max-width:740px;width:100%;max-height:85vh;overflow-y:auto;padding:2.5rem;position:relative}
+.modal-close{position:absolute;top:1.25rem;right:1.25rem;width:30px;height:30px;border-radius:50%;border:1px solid var(–border2);background:var(–card);display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(–text2);font-size:.9rem;transition:all .2s}
+.modal-close:hover{background:var(–card2);color:var(–text)}
+.modal h2{font-family:var(–font2);font-size:1.55rem;font-weight:700;margin-bottom:.4rem;line-height:1.25}
+.modal .modal-tag{font-size:.78rem;color:var(–accent);font-weight:500;margin-bottom:1.5rem;display:block}
 .modal-section{margin-bottom:1.75rem}
-.modal-section h3{font-family:var(--font2);font-weight:600;font-size:.9rem;color:var(--text);margin-bottom:.65rem;padding-bottom:.4rem;border-bottom:1px solid var(--border)}
-.modal-section p,.modal-section li{font-size:.875rem;color:var(--text2);line-height:1.7}
+.modal-section h3{font-family:var(–font2);font-weight:600;font-size:.9rem;color:var(–text);margin-bottom:.65rem;padding-bottom:.4rem;border-bottom:1px solid var(–border)}
+.modal-section p,.modal-section li{font-size:.875rem;color:var(–text2);line-height:1.7}
 .modal-section ul{padding-left:1.2rem;display:flex;flex-direction:column;gap:.35rem}
 .modal-tools{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.4rem}
-.modal-tool{padding:.25rem .7rem;border-radius:999px;font-size:.72rem;border:1px solid var(--border2);color:var(--accent3)}
+.modal-tool{padding:.25rem .7rem;border-radius:999px;font-size:.72rem;border:1px solid var(–border2);color:var(–accent3)}
 
 /* ── ABOUT BG ── */
 .about-section-wrap{
-  position:relative;
-  overflow:hidden;
-  padding:96px 5vw;
+position:relative;
+overflow:hidden;
+padding:96px 5vw;
 }
 .about-section-wrap::before{
-  content:"";
-  position:absolute;
-  inset:0;
-  background:url('about-bg.jpg') center center / cover no-repeat;
-  opacity:.07;
-  z-index:0;
-  pointer-events:none;
+content:””;
+position:absolute;
+inset:0;
+background:url(‘about-bg.jpg’) center center / cover no-repeat;
+opacity:.07;
+z-index:0;
+pointer-events:none;
 }
 .about-section-wrap .section{
-  padding:0;
-  position:relative;
-  z-index:1;
+padding:0;
+position:relative;
+z-index:1;
 }
 
 /* ── SCROLL ANIMS ── */
@@ -321,7 +322,7 @@ img{max-width:100%;display:block}
 .fade-up.visible{opacity:1;transform:none}
 
 /* ── FOOTER ── */
-footer{padding:2rem 5vw;text-align:center;border-top:1px solid var(--border);color:var(--text3);font-size:.82rem}
+footer{padding:2rem 5vw;text-align:center;border-top:1px solid var(–border);color:var(–text3);font-size:.82rem}
 
 /* ── RESPONSIVE ── */
 @media(max-width:960px){
@@ -330,7 +331,7 @@ footer{padding:2rem 5vw;text-align:center;border-top:1px solid var(--border);col
 .case-grid{grid-template-columns:1fr 1fr}
 .playground-grid{grid-template-columns:1fr}
 .gallery-grid{columns:2}
-.nav-links{display:none;position:absolute;top:64px;left:0;right:0;background:rgba(8,8,8,.98);flex-direction:column;gap:0;padding:1rem 0;border-bottom:1px solid var(--border)}
+.nav-links{display:none;position:absolute;top:64px;left:0;right:0;background:rgba(8,8,8,.98);flex-direction:column;gap:0;padding:1rem 0;border-bottom:1px solid var(–border)}
 .nav-links.open{display:flex}
 .nav-links a{padding:.75rem 2rem;font-size:.95rem}
 .nav-toggle{display:flex}
@@ -344,10 +345,12 @@ footer{padding:2rem 5vw;text-align:center;border-top:1px solid var(--border);col
 .featured-img.tall{grid-row:auto}
 }
 </style>
+
 </head>
 <body>
 
 <!-- NAV -->
+
 <nav class="nav" id="nav">
   <div class="nav-logo">Abhina<span>.</span></div>
   <div class="nav-links" id="nav-links">
@@ -365,16 +368,17 @@ footer{padding:2rem 5vw;text-align:center;border-top:1px solid var(--border);col
 </nav>
 
 <!-- HERO -->
+
 <section class="hero" id="home">
   <canvas id="hero-canvas"></canvas>
   <div class="hero-content">
     <div class="hero-badge">
       <span class="hero-badge-dot"></span>
-      Mechanical Engineering + CS · AI Product Builder · Trane Technologies · Targeting PM &amp; Product Roles
+      Mechanical Engineering + CS · Project & Product Management · Trane Technologies · Targeting PMO &amp; Product Roles
     </div>
     <h1>Engineering Systems.<br><span class="accent">Building Products.</span><br><span class="dim">Solving Real Problems.</span></h1>
-    <p>Mechanical Engineering graduate (CGPA 8.84 · CS Minor) from TKM College of Engineering, Kollam — with hands-on experience in AI-driven manufacturing at Trane Technologies, UAV research at NIT Calicut, and structural design leadership for SAE BAJA.</p>
-    <p style="font-size:clamp(.85rem,1.5vw,1rem);color:var(--text3);max-width:520px;margin:-.75rem auto 2.5rem;line-height:1.7">Targeting Product Manager, Product Analyst, PLM, and Digital Transformation roles at companies like Airbus, Siemens, Caterpillar, and Honeywell.</p>
+    <p>Mechanical Engineering graduate (CGPA 8.84 · CS Minor) with experience spanning AI-driven manufacturing, engineering projects, business strategy, and cross-functional collaboration — bridging technical and business perspectives through industry internships, startup-focused projects, and leadership positions.</p>
+    <p style="font-size:clamp(.85rem,1.5vw,1rem);color:var(--text3);max-width:520px;margin:-.75rem auto 2.5rem;line-height:1.7">Open to Product Manager, Project Coordinator, and Digital Transformation roles in industrial and technology organisations.</p>
     <div class="hero-btns">
       <a class="btn btn-primary" href="#projects">View Case Studies</a>
       <a class="btn btn-outline" href="Abhina_Resume.pdf" download>↓ Download Resume</a>
@@ -390,6 +394,7 @@ footer{padding:2rem 5vw;text-align:center;border-top:1px solid var(--border);col
 <div class="divider"></div>
 
 <!-- ABOUT -->
+
 <div class="about-section-wrap" id="about">
 <div class="section" style="max-width:1200px;margin:0 auto">
   <p class="section-label">About</p>
@@ -403,12 +408,12 @@ footer{padding:2rem 5vw;text-align:center;border-top:1px solid var(--border);col
       </div>
     </div>
     <div class="about-right">
-      <p class="section-sub">Mechanical Engineering graduate from TKM College of Engineering, Kollam. I've worked across design, simulation, AI-driven manufacturing, and industrial operations — and I'm now looking for full-time roles where I can apply that breadth to real engineering problems.</p>
+      <p class="section-sub">Mechanical Engineering graduate (CGPA 8.84 · Minor in Computer Science) with experience spanning AI-driven manufacturing, engineering projects, business strategy, and cross-functional collaboration. Demonstrated ability to bridge technical and business perspectives through industry internships, startup-focused projects, and leadership positions. Interested in Product Operations, Business Analytics, and technology-driven problem-solving roles.</p>
       <div class="timeline">
         <div class="tl-item">
           <div class="tl-year">Oct 2022 — May 2026</div>
           <div class="tl-title">TKM College of Engineering, Kollam</div>
-          <div class="tl-desc">B.Tech Mechanical Engineering — thermodynamics, solid mechanics, fluid mechanics, CAD/CAM, manufacturing processes, and engineering design.</div>
+          <div class="tl-desc">B.Tech Mechanical Engineering (CGPA 8.84) · Minor in Computer Science. Relevant coursework: Operations Management, Management for Engineers, Sustainable Engineering, Industrial Systems Engineering, Technical Management.</div>
         </div>
         <div class="tl-item">
           <div class="tl-year">Sep–Oct 2024</div>
@@ -428,7 +433,7 @@ footer{padding:2rem 5vw;text-align:center;border-top:1px solid var(--border);col
         <div class="tl-item">
           <div class="tl-year">Jan 2026 — Present</div>
           <div class="tl-title">Intern — Trane Technologies, Bengaluru</div>
-          <div class="tl-desc">AI-driven attribute extraction from engineering drawings. Built a centralised Parts Management support portal. Proposed process improvement proof-of-concepts for operational efficiency.</div>
+          <div class="tl-desc">Mapped operational pain points in parts management through stakeholder conversations, proposed and developed two process improvement PoCs, and gathered feedback from domain teams to refine solutions before review.</div>
         </div>
       </div>
     </div>
@@ -439,141 +444,145 @@ footer{padding:2rem 5vw;text-align:center;border-top:1px solid var(--border);col
 <div class="divider"></div>
 
 <!-- EXPERIENCE -->
+
 <div class="section" id="experience">
   <p class="section-label">Experience</p>
   <h2 class="section-title fade-up">Where Theory Became Practice</h2>
   <p class="section-sub fade-up">Real engineering challenges across manufacturing, research, and industrial operations.</p>
   <div class="exp-grid">
 
-    <!-- TRANE -->
-    <div class="exp-card">
-      <div class="exp-header">
-        <div>
-          <div class="exp-company">Trane Technologies</div>
-          <div class="exp-role">Intern — AI in Parts Management & Operations</div>
-          <div class="exp-location">📍 Bengaluru, Karnataka · Jan 2026 – Present</div>
-        </div>
-        <span class="exp-period">6 months · </span>
-      </div>
-      <!-- 📸 Add your Trane internship photos: upload trane-1.jpg, trane-2.jpg, trane-3.jpg to your repo -->
-      <div class="exp-img-strip">
-        <div class="exp-img-frame">
-          <img src="trane-internship.jpg.jpeg" alt="Trane Technologies" onerror="this.parentElement.innerHTML='<svg viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><polyline points=\'21 15 16 10 5 21\'/></svg><span>Upload: trane-internship.jpg</span>'">
-        </div>
-        <div class="exp-img-frame">
-          <img src="trane2.jpeg" alt="Trane Office" onerror="this.parentElement.innerHTML='<svg viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><polyline points=\'21 15 16 10 5 21\'/></svg><span>Upload: trane-2.jpg</span>'">
-        </div>
-        <div class="exp-img-frame">
-          <img src="trane-3.jpg.jpeg" alt="Trane Work" onerror="this.parentElement.innerHTML='<svg viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><polyline points=\'21 15 16 10 5 21\'/></svg><span>Upload: trane-3.jpg</span>'">
-        </div>
-      </div>
-      <div class="case-grid">
-        <div class="case-block">
-          <div class="case-block-label">Challenge</div>
-          <div class="case-block-content">Engineering drawings contain dense, unstructured data — part numbers, tolerances, materials — spread across thousands of documents. Manual extraction is slow, inconsistent, and doesn't scale to modern procurement demands.</div>
-        </div>
-        <div class="case-block">
-          <div class="case-block-label">What I Built</div>
-          <div class="case-block-content"><span style="color:var(--green);font-weight:600">●</span> AI attribute extraction &amp; validation workflows (Green — shipped)<br><span style="color:var(--green);font-weight:600">●</span> Centralised Parts Management support portal (Green — live)<br><span style="color:var(--amber);font-weight:600">●</span> Two process improvement PoCs (Amber — proposed, under review)</div>
-        </div>
-        <div class="case-block">
-          <div class="case-block-label">Impact</div>
-          <div class="case-block-content">Improved engineering data accessibility across parts workflows. Reduced manual effort in attribute identification. Portal centralised fragmented support into a single interface.</div>
-        </div>
-      </div>
-      <div class="tag-list">
-        <span class="tag">AI Attribute Extraction</span>
-        <span class="tag">Engineering Drawings</span>
-        <span class="tag">Parts Management Portal</span>
-        <span class="tag">Process Improvement</span>
-        <span class="tag">Digital Transformation</span>
-      </div>
-      <button class="btn btn-outline" style="margin-top:1.25rem;font-size:.82rem" onclick="openModal('trane-exp')">View Full Case Study →</button>
+```
+<!-- TRANE -->
+<div class="exp-card">
+  <div class="exp-header">
+    <div>
+      <div class="exp-company">Trane Technologies</div>
+      <div class="exp-role">Intern — Process Improvement & AI-Driven Operations</div>
+      <div class="exp-location">📍 Bengaluru, Karnataka · Jan 2026 – Present</div>
     </div>
+    <span class="exp-period">6 months · </span>
+  </div>
+  <!-- 📸 Add your Trane internship photos: upload trane-1.jpg, trane-2.jpg, trane-3.jpg to your repo -->
+  <div class="exp-img-strip">
+    <div class="exp-img-frame">
+      <img src="trane-internship.jpg.jpeg" alt="Trane Technologies" onerror="this.parentElement.innerHTML='<svg viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><polyline points=\'21 15 16 10 5 21\'/></svg><span>Upload: trane-internship.jpg</span>'">
+    </div>
+    <div class="exp-img-frame">
+      <img src="trane2.jpeg" alt="Trane Office" onerror="this.parentElement.innerHTML='<svg viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><polyline points=\'21 15 16 10 5 21\'/></svg><span>Upload: trane-2.jpg</span>'">
+    </div>
+    <div class="exp-img-frame">
+      <img src="trane-3.jpg.jpeg" alt="Trane Work" onerror="this.parentElement.innerHTML='<svg viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><polyline points=\'21 15 16 10 5 21\'/></svg><span>Upload: trane-3.jpg</span>'">
+    </div>
+  </div>
+  <div class="case-grid">
+    <div class="case-block">
+      <div class="case-block-label">Problem Identification</div>
+      <div class="case-block-content">Through conversations with domain teams, mapped key operational pain points in parts management — fragmented support, manual data extraction, and inconsistent workflows ahead of a system migration.</div>
+    </div>
+    <div class="case-block">
+      <div class="case-block-label">What I Built</div>
+      <div class="case-block-content"><span style="color:var(--green);font-weight:600">●</span> AI attribute extraction &amp; validation workflows (Green — shipped)<br><span style="color:var(--green);font-weight:600">●</span> Centralised Parts Management support portal (Green — live)<br><span style="color:var(--amber);font-weight:600">●</span> Two process improvement PoCs (Amber — proposed, under review)</div>
+    </div>
+    <div class="case-block">
+      <div class="case-block-label">Feedback & Outcome</div>
+      <div class="case-block-content">PoCs presented to stakeholders and domain leads. Collected structured feedback to refine scope. Portal consolidated fragmented support into a single interface, reducing resolution effort.</div>
+    </div>
+  </div>
+  <div class="tag-list">
+    <span class="tag">Stakeholder Engagement</span>
+    <span class="tag">Process Improvement</span>
+    <span class="tag">AI Attribute Extraction</span>
+    <span class="tag">Parts Management Portal</span>
+    <span class="tag">Project Coordination</span>
+    <span class="tag">Digital Transformation</span>
+  </div>
+  <button class="btn btn-outline" style="margin-top:1.25rem;font-size:.82rem" onclick="openModal('trane-exp')">View Full Case Study →</button>
+</div>
 
-    <!-- NIT CALICUT -->
-    <div class="exp-card">
-      <div class="exp-header">
-        <div>
-          <div class="exp-company">National Institute of Technology Calicut</div>
-          <div class="exp-role">Research Intern — UAV Mechanical Design & Simulation</div>
-          <div class="exp-location">📍 Calicut · Jun – Jul 2025</div>
-        </div>
-        <span class="exp-period">1 month</span>
-      </div>
-      <!-- 📸 Upload: nit-lab.jpg, gazebo-sim.jpg.png, ansys-stress.jpg.jpeg -->
-      <div class="exp-img-strip">
-        <div class="exp-img-frame">
-          <img src="nit-lab.jpg.jpeg" alt="NIT Calicut Research Lab" onerror="this.parentElement.innerHTML='<svg viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><polyline points=\'21 15 16 10 5 21\'/></svg><span>Upload: nit-lab.jpg</span>'">
-        </div>
-        <div class="exp-img-frame">
-          <img src="gazebo-sim.jpg.png.png" alt="Gazebo Simulation" onerror="this.parentElement.innerHTML='<svg viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><polyline points=\'21 15 16 10 5 21\'/></svg><span>Upload: gazebo-sim.jpg.png</span>'">
-        </div>
-        <div class="exp-img-frame">
-          <img src="ansys-stress.jpg.jpeg" alt="ANSYS Structural Analysis" onerror="this.parentElement.innerHTML='<svg viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><polyline points=\'21 15 16 10 5 21\'/></svg><span>Upload: ansys-stress.jpg.jpeg</span>'">
-        </div>
-      </div>
-      <div class="case-grid">
-        <div class="case-block">
-          <div class="case-block-label">Mechanical Design</div>
-          <div class="case-block-content">CAD modelling and mechanism design for UAV components in SolidWorks and Fusion 360. ANSYS structural validation under operational load cases.</div>
-        </div>
-        <div class="case-block">
-          <div class="case-block-label">Simulation Environments</div>
-          <div class="case-block-content">Built Gazebo Ignition and Gazebo Classic environments with custom 3D Blender assets. Integrated with PX4 and QGroundControl for drone validation.</div>
-        </div>
-        <div class="case-block">
-          <div class="case-block-label">Outcome</div>
-          <div class="case-block-content">Validated UAV mechanism designs. Delivered simulation environments enabling virtual mission testing without physical deployment risk.</div>
-        </div>
-      </div>
-      <div class="tag-list">
-        <span class="tag">SolidWorks</span><span class="tag">Fusion 360</span><span class="tag">ANSYS</span><span class="tag">Gazebo Ignition</span><span class="tag">PX4</span><span class="tag">QGroundControl</span><span class="tag">Blender</span>
-      </div>
-      <button class="btn btn-outline" style="margin-top:1.25rem;font-size:.82rem" onclick="openModal('nit-exp')">View Full Case Study →</button>
+<!-- NIT CALICUT -->
+<div class="exp-card">
+  <div class="exp-header">
+    <div>
+      <div class="exp-company">National Institute of Technology Calicut</div>
+      <div class="exp-role">Research Intern — UAV Mechanical Design & Simulation</div>
+      <div class="exp-location">📍 Calicut · Jun – Jul 2025</div>
     </div>
+    <span class="exp-period">1 month</span>
+  </div>
+  <!-- 📸 Upload: nit-lab.jpg, gazebo-sim.jpg.png, ansys-stress.jpg.jpeg -->
+  <div class="exp-img-strip">
+    <div class="exp-img-frame">
+      <img src="nit-lab.jpg.jpeg" alt="NIT Calicut Research Lab" onerror="this.parentElement.innerHTML='<svg viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><polyline points=\'21 15 16 10 5 21\'/></svg><span>Upload: nit-lab.jpg</span>'">
+    </div>
+    <div class="exp-img-frame">
+      <img src="gazebo-sim.jpg.png.png" alt="Gazebo Simulation" onerror="this.parentElement.innerHTML='<svg viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><polyline points=\'21 15 16 10 5 21\'/></svg><span>Upload: gazebo-sim.jpg.png</span>'">
+    </div>
+    <div class="exp-img-frame">
+      <img src="ansys-stress.jpg.jpeg" alt="ANSYS Structural Analysis" onerror="this.parentElement.innerHTML='<svg viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><polyline points=\'21 15 16 10 5 21\'/></svg><span>Upload: ansys-stress.jpg.jpeg</span>'">
+    </div>
+  </div>
+  <div class="case-grid">
+    <div class="case-block">
+      <div class="case-block-label">Mechanical Design</div>
+      <div class="case-block-content">CAD modelling and mechanism design for UAV components in SolidWorks and Fusion 360. ANSYS structural validation under operational load cases.</div>
+    </div>
+    <div class="case-block">
+      <div class="case-block-label">Simulation Environments</div>
+      <div class="case-block-content">Built Gazebo Ignition and Gazebo Classic environments with custom 3D Blender assets. Integrated with PX4 and QGroundControl for drone validation.</div>
+    </div>
+    <div class="case-block">
+      <div class="case-block-label">Outcome</div>
+      <div class="case-block-content">Validated UAV mechanism designs. Delivered simulation environments enabling virtual mission testing without physical deployment risk.</div>
+    </div>
+  </div>
+  <div class="tag-list">
+    <span class="tag">SolidWorks</span><span class="tag">Fusion 360</span><span class="tag">ANSYS</span><span class="tag">Gazebo Ignition</span><span class="tag">PX4</span><span class="tag">QGroundControl</span><span class="tag">Blender</span>
+  </div>
+  <button class="btn btn-outline" style="margin-top:1.25rem;font-size:.82rem" onclick="openModal('nit-exp')">View Full Case Study →</button>
+</div>
 
-    <!-- BAJA -->
-    <div class="exp-card">
-      <div class="exp-header">
-        <div>
-          <div class="exp-company">HBaja Xlr8 Racing TKMCE</div>
-          <div class="exp-role">Roll Cage Design Head</div>
-          <div class="exp-location">📍 TKM College of Engineering · Jun 2025 – Feb 2026</div>
-        </div>
-        <span class="exp-period">9 months</span>
-      </div>
-      <!-- 📸 Upload: baja-competition.jpg, baja-cad.jpg.jpeg, team-photo.jpg -->
-      <div class="exp-img-strip">
-        <div class="exp-img-frame">
-          <img src="baja-competition 4.jpg" alt="BAJA SAE Competition" onerror="this.parentElement.innerHTML='<svg viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><polyline points=\'21 15 16 10 5 21\'/></svg><span>Upload: baja-competition.jpg</span>'">
-        </div>
-        <div class="exp-img-frame">
-          <img src="baja-cad 3.jpg.jpeg" alt="Roll Cage CAD Model" onerror="this.parentElement.innerHTML='<svg viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><polyline points=\'21 15 16 10 5 21\'/></svg><span>Upload: baja-cad.jpg.jpeg</span>'">
-        </div>
-        <div class="exp-img-frame">
-          <img src="team-photo.jpg.jpg" alt="BAJA Team" onerror="this.parentElement.innerHTML='<svg viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><polyline points=\'21 15 16 10 5 21\'/></svg><span>Upload: team-photo.jpg</span>'">
-        </div>
-      </div>
-      <div class="case-grid">
-        <div class="case-block">
-          <div class="case-block-label">Responsibility</div>
-          <div class="case-block-content">Led structural validation of the ATV roll cage — the most safety-critical component of the competition vehicle.</div>
-        </div>
-        <div class="case-block">
-          <div class="case-block-label">Engineering Work</div>
-          <div class="case-block-content">ANSYS simulations for stress, deformation, and factor of safety. Iterated design to meet BAJA SAE compliance standards.</div>
-        </div>
-        <div class="case-block">
-          <div class="case-block-label">Leadership</div>
-          <div class="case-block-content">Led the structural workstream across the team. Coordinated between design, manufacturing, and competition preparation.</div>
-        </div>
-      </div>
-      <div class="tag-list">
-        <span class="tag">ANSYS Structural FEA</span><span class="tag">Roll Cage Design</span><span class="tag">SAE BAJA Standards</span><span class="tag">Stress Analysis</span><span class="tag">Team Leadership</span>
-      </div>
-      <button class="btn btn-outline" style="margin-top:1.25rem;font-size:.82rem" onclick="openModal('baja-exp')">View Full Case Study →</button>
+<!-- BAJA -->
+<div class="exp-card">
+  <div class="exp-header">
+    <div>
+      <div class="exp-company">HBaja Xlr8 Racing TKMCE</div>
+      <div class="exp-role">Roll Cage Design Head</div>
+      <div class="exp-location">📍 TKM College of Engineering · Jun 2025 – Feb 2026</div>
     </div>
+    <span class="exp-period">9 months</span>
+  </div>
+  <!-- 📸 Upload: baja-competition.jpg, baja-cad.jpg.jpeg, team-photo.jpg -->
+  <div class="exp-img-strip">
+    <div class="exp-img-frame">
+      <img src="baja-competition 4.jpg" alt="BAJA SAE Competition" onerror="this.parentElement.innerHTML='<svg viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><polyline points=\'21 15 16 10 5 21\'/></svg><span>Upload: baja-competition.jpg</span>'">
+    </div>
+    <div class="exp-img-frame">
+      <img src="baja-cad 3.jpg.jpeg" alt="Roll Cage CAD Model" onerror="this.parentElement.innerHTML='<svg viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><polyline points=\'21 15 16 10 5 21\'/></svg><span>Upload: baja-cad.jpg.jpeg</span>'">
+    </div>
+    <div class="exp-img-frame">
+      <img src="team-photo.jpg.jpg" alt="BAJA Team" onerror="this.parentElement.innerHTML='<svg viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><polyline points=\'21 15 16 10 5 21\'/></svg><span>Upload: team-photo.jpg</span>'">
+    </div>
+  </div>
+  <div class="case-grid">
+    <div class="case-block">
+      <div class="case-block-label">Responsibility</div>
+      <div class="case-block-content">Led structural validation of the ATV roll cage — the most safety-critical component of the competition vehicle.</div>
+    </div>
+    <div class="case-block">
+      <div class="case-block-label">Engineering Work</div>
+      <div class="case-block-content">ANSYS simulations for stress, deformation, and factor of safety. Iterated design to meet BAJA SAE compliance standards.</div>
+    </div>
+    <div class="case-block">
+      <div class="case-block-label">Leadership</div>
+      <div class="case-block-content">Led the structural workstream across the team. Coordinated between design, manufacturing, and competition preparation.</div>
+    </div>
+  </div>
+  <div class="tag-list">
+    <span class="tag">ANSYS Structural FEA</span><span class="tag">Roll Cage Design</span><span class="tag">SAE BAJA Standards</span><span class="tag">Stress Analysis</span><span class="tag">Team Leadership</span>
+  </div>
+  <button class="btn btn-outline" style="margin-top:1.25rem;font-size:.82rem" onclick="openModal('baja-exp')">View Full Case Study →</button>
+</div>
+```
 
   </div>
 
@@ -601,7 +610,7 @@ footer{padding:2rem 5vw;text-align:center;border-top:1px solid var(--border);col
       <h4>IEDC TKM</h4>
       <div class="role">Chief Financial Officer</div>
       <div class="period">Mar 2024 – Mar 2025</div>
-      <p>Financial management of the college Innovation & Entrepreneurship Development Cell — budgeting, resource allocation, and event financial planning.</p>
+      <p>Managed budgets and resource allocation for the college Innovation & Entrepreneurship Development Cell — tracking spend across events, coordinating with cross-functional teams, and ensuring financial accountability on deliverables. Directly relevant to PMO budget monitoring and project governance.</p>
     </div>
     <div class="extra-exp-card">
       <h4>EUREKA TKMCE</h4>
@@ -619,7 +628,7 @@ footer{padding:2rem 5vw;text-align:center;border-top:1px solid var(--border);col
       <h4>Junior MBA — Clever Harvey</h4>
       <div class="role">Business &amp; Strategy Programme</div>
       <div class="period">Sep 2022</div>
-      <p>Business fundamentals, strategy, financial thinking, and entrepreneurship — designed to give engineering students a business lens for product and operations decisions.</p>
+      <p>Completed a structured business programme covering strategy, financial thinking, operations, and entrepreneurship — building a management lens that complements technical engineering work. Directly informs how I approach product decisions, stakeholder communication, and project trade-offs.</p>
     </div>
     <div class="extra-exp-card">
       <h4>WEF Global Shapers Community</h4>
@@ -645,6 +654,7 @@ footer{padding:2rem 5vw;text-align:center;border-top:1px solid var(--border);col
 <div class="divider"></div>
 
 <!-- FEATURED: BAJA -->
+
 <div class="featured-section" id="baja">
   <div class="featured-inner">
     <p class="section-label">Featured Project</p>
@@ -688,6 +698,7 @@ footer{padding:2rem 5vw;text-align:center;border-top:1px solid var(--border);col
 </div>
 
 <!-- PROJECTS -->
+
 <div class="section" id="projects">
   <p class="section-label">Projects</p>
   <h2 class="section-title fade-up">Engineering Case Studies</h2>
@@ -762,22 +773,35 @@ footer{padding:2rem 5vw;text-align:center;border-top:1px solid var(--border);col
 <div class="divider"></div>
 
 <!-- SKILLS -->
+
 <div class="section" id="skills">
   <p class="section-label">Capabilities</p>
-  <h2 class="section-title fade-up">Engineering Capability Map</h2>
+  <h2 class="section-title fade-up">Capability Map</h2>
   <p class="section-sub fade-up">A cross-disciplinary toolkit built through real projects and industrial exposure — not certifications alone.</p>
   <div class="skills-grid">
+    <div class="skill-cluster">
+      <div class="skill-cluster-icon">📋</div>
+      <h3>Project &amp; PMO Skills</h3>
+      <div class="skill-pills">
+        <span class="skill-pill">Project Coordination</span>
+        <span class="skill-pill">RAG Status Tracking</span>
+        <span class="skill-pill">Stakeholder Reporting</span>
+        <span class="skill-pill">Process Documentation</span>
+        <span class="skill-pill">Risk Identification</span>
+        <span class="skill-pill">Budget Tracking</span>
+        <span class="skill-pill">Cross-functional Coordination</span>
+      </div>
+    </div>
     <div class="skill-cluster">
       <div class="skill-cluster-icon">🧩</div>
       <h3>Product &amp; Systems Thinking</h3>
       <div class="skill-pills">
-        <span class="skill-pill">Product Discovery</span>
-        <span class="skill-pill">User Stories</span>
+        <span class="skill-pill">Problem Discovery</span>
         <span class="skill-pill">Requirements Analysis</span>
-        <span class="skill-pill">Product Roadmapping</span>
-        <span class="skill-pill">PLM Concepts</span>
-        <span class="skill-pill">Digital Transformation</span>
+        <span class="skill-pill">Process Improvement</span>
         <span class="skill-pill">Stakeholder Mapping</span>
+        <span class="skill-pill">Digital Transformation</span>
+        <span class="skill-pill">PLM Concepts</span>
       </div>
     </div>
     <div class="skill-cluster">
@@ -846,12 +870,13 @@ footer{padding:2rem 5vw;text-align:center;border-top:1px solid var(--border);col
     </div>
     <div class="skill-cluster">
       <div class="skill-cluster-icon">🚀</div>
-      <h3>Leadership & Strategy</h3>
+      <h3>Leadership &amp; Business Acumen</h3>
       <div class="skill-pills">
         <span class="skill-pill">Team Leadership</span>
         <span class="skill-pill">CFO · IEDC TKM</span>
-        <span class="skill-pill">Junior MBA</span>
-        <span class="skill-pill">Cross-functional</span>
+        <span class="skill-pill">Junior MBA (Strategy)</span>
+        <span class="skill-pill">Financial Planning</span>
+        <span class="skill-pill">Cross-functional Teams</span>
         <span class="skill-pill">Systems Thinking</span>
       </div>
     </div>
@@ -861,6 +886,7 @@ footer{padding:2rem 5vw;text-align:center;border-top:1px solid var(--border);col
 <div class="divider"></div>
 
 <!-- ENGINEERING PLAYGROUND -->
+
 <div class="playground-section" id="playground">
   <div class="playground-inner">
     <p class="section-label">Engineering Playground</p>
@@ -930,6 +956,7 @@ footer{padding:2rem 5vw;text-align:center;border-top:1px solid var(--border);col
 </div>
 
 <!-- LESSONS -->
+
 <div class="section" id="lessons">
   <p class="section-label">Reflections</p>
   <h2 class="section-title fade-up">Lessons from Building Things</h2>
@@ -981,6 +1008,7 @@ footer{padding:2rem 5vw;text-align:center;border-top:1px solid var(--border);col
 <div class="divider"></div>
 
 <!-- CERTIFICATIONS -->
+
 <div class="section" id="certifications">
   <p class="section-label">Certifications</p>
   <h2 class="section-title fade-up">Credentials</h2>
@@ -1032,6 +1060,7 @@ footer{padding:2rem 5vw;text-align:center;border-top:1px solid var(--border);col
 <div class="divider"></div>
 
 <!-- GALLERY -->
+
 <div class="section" id="gallery">
   <p class="section-label">Gallery</p>
   <h2 class="section-title fade-up">Engineering in the Wild</h2>
@@ -1073,6 +1102,7 @@ footer{padding:2rem 5vw;text-align:center;border-top:1px solid var(--border);col
 <div class="divider"></div>
 
 <!-- RESUME -->
+
 <div class="resume-section" id="resume">
   <div class="resume-inner">
     <p class="section-label">Resume</p>
@@ -1088,8 +1118,8 @@ footer{padding:2rem 5vw;text-align:center;border-top:1px solid var(--border);col
         <div class="resume-panel active" id="panel-exp">
           <div class="resume-exp-item">
             <div class="resume-exp-meta"><span>Trane Technologies</span><span>Jan 2026 – Present · Bengaluru</span></div>
-            <h4>Intern — AI & Parts Management</h4>
-            <p>AI-driven attribute extraction from engineering drawings. Centralised Parts Management support portal. Two process improvement proof-of-concepts for operational efficiency.</p>
+            <h4>Intern — Process Improvement &amp; AI-Driven Operations</h4>
+            <p>Mapped operational pain points through stakeholder conversations. Built AI attribute extraction workflows and a centralised Parts Management portal. Proposed two process improvement PoCs; collected feedback from domain leads to refine scope.</p>
           </div>
           <div class="resume-exp-item">
             <div class="resume-exp-meta"><span>HBaja Xlr8 Racing TKMCE</span><span>Jun 2025 – Feb 2026</span></div>
@@ -1125,8 +1155,8 @@ footer{padding:2rem 5vw;text-align:center;border-top:1px solid var(--border);col
         <div class="resume-panel" id="panel-edu">
           <div class="resume-exp-item">
             <div class="resume-exp-meta"><span>TKM College of Engineering, Kollam</span><span>Oct 2022 – May 2026</span></div>
-            <h4>B.Tech — Mechanical Engineering</h4>
-            <p>Thermodynamics, solid mechanics, fluid mechanics, CAD/CAM, manufacturing processes, engineering design. Active in SAE BAJA team, research internships, and college leadership.</p>
+            <h4>B.Tech — Mechanical Engineering (CGPA 8.84) · Minor in Computer Science</h4>
+            <p>Relevant coursework: Operations Management, Management for Engineers, Sustainable Engineering, Industrial Systems Engineering, Technical Management. Active in SAE BAJA team, research internships, and college leadership.</p>
           </div>
           <div class="resume-exp-item">
             <div class="resume-exp-meta"><span>Clever Harvey</span><span>Sep 2022</span></div>
@@ -1150,12 +1180,13 @@ footer{padding:2rem 5vw;text-align:center;border-top:1px solid var(--border);col
 </div>
 
 <!-- CONTACT -->
+
 <div class="contact-section" id="contact">
   <div class="contact-inner">
     <p class="section-label" style="text-align:center">Contact</p>
     <h2>Let's Talk Engineering.</h2>
     <p>I'm always interested in conversations around engineering, product development, industrial systems, sustainability, and emerging technologies. Whether it's a role, a collaboration, or just a good engineering conversation — reach out.</p>
-    <p style="font-size:.875rem;color:var(--green);margin-top:-1.5rem;margin-bottom:2rem;display:flex;align-items:center;justify-content:center;gap:.45rem"><span style="width:7px;height:7px;border-radius:50%;background:var(--green);display:inline-block;animation:pulse 2s infinite"></span> Available for full-time roles starting June 2026 — open to PM, Product Analyst, PLM, and Digital Transformation positions.</p>
+    <p style="font-size:.875rem;color:var(--green);margin-top:-1.5rem;margin-bottom:2rem;display:flex;align-items:center;justify-content:center;gap:.45rem"><span style="width:7px;height:7px;border-radius:50%;background:var(--green);display:inline-block;animation:pulse 2s infinite"></span> Available for full-time roles starting June 2026 — open to Product Manager, Project Coordinator, and Digital Transformation positions.</p>
     <div class="contact-links">
       <a class="contact-link" href="mailto:abhinaanil2004@gmail.com">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
@@ -1178,12 +1209,14 @@ footer{padding:2rem 5vw;text-align:center;border-top:1px solid var(--border);col
 </footer>
 
 <!-- LIGHTBOX -->
+
 <div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
   <button class="lightbox-close" onclick="closeLightboxDirect()">✕</button>
   <img id="lightbox-img" src="" alt="">
 </div>
 
 <!-- MODALS -->
+
 <div class="modal-overlay" id="modal-overlay" onclick="closeModal(event)">
   <div class="modal" id="modal-content">
     <button class="modal-close" onclick="closeModalDirect()">✕</button>
@@ -1259,13 +1292,13 @@ function showPanel(btn,id){document.querySelectorAll('.resume-panel').forEach(p=
 
 // ── MODALS ──
 const MODALS={
-'trane-exp':{title:'Trane Technologies — AI in Parts Management & Operations',tag:'Product · AI · Digital Transformation · Bengaluru · Jan 2026 – Present',sections:[
-{h:'The Problem',p:'Engineering drawings at Trane contain dense, unstructured data — part numbers, tolerances, materials, manufacturing notes — spread across thousands of documents. Procurement and parts teams were manually extracting attributes: slow, error-prone, and impossible to scale.'},
-{h:'What I Built',ul:['AI-driven attribute extraction pipeline for engineering drawings — automatically parsing and structuring part metadata from unstructured drawing content','Attribute validation workflows to cross-check extracted data against engineering standards and flag anomalies for human review','Centralised Parts Management support portal — a single interface replacing fragmented, siloed tools across the parts workflow','Two process improvement proof-of-concepts (PoCs) targeting operational bottlenecks in parts data management']},
-{h:'Confidence Framework',p:'🟢 Green (shipped & live): Attribute extraction pipeline, Parts Management portal. 🟡 Amber (proposed, under review): PoC 1 — automated anomaly flagging, PoC 2 — cross-team workflow integration.'},
-{h:'Product Thinking Applied',ul:['Defined user requirements by shadowing procurement engineers and parts managers','Scoped the portal as a product with an MVP feature set, not a one-off tool','Identified two workflow PoCs by mapping the end-to-end parts data journey and finding friction points','Wrote structured problem statements and solution briefs for each PoC to pitch to stakeholders']},
-{h:'Tools & Stack',tools:['AI/ML Extraction Pipelines','Engineering Drawing Interpretation','Attribute Validation Logic','Parts Management Systems','Portal Development','Process Mapping','Stakeholder Communication']},
-{h:'Key Insight',p:'The hardest part of industrial AI is not the model — it\'s encoding the domain knowledge to make the output trustworthy. Engineers have implicit reading conventions for drawings that take years to learn. That expertise is what turns raw extraction into validated, usable data.'}
+'trane-exp':{title:'Trane Technologies — Process Improvement & AI-Driven Operations',tag:'Project Coordination · Stakeholder Engagement · Process Improvement · Jan 2026 – Present',sections:[
+{h:'Context & Approach',p:'Rather than being assigned a fixed deliverable, I started by mapping the operational landscape — talking to domain teams across parts management to understand where friction existed. This stakeholder discovery phase shaped everything that came after.'},
+{h:'Problem Areas Identified',ul:['Engineering drawings held dense, unstructured data requiring manual extraction — slow, inconsistent, and unscalable ahead of a system migration','Parts management support was fragmented across channels with no single source of truth','Existing workflows had gaps in process coverage that created repeated escalations and inefficiencies']},
+{h:'What I Built',ul:['AI attribute extraction and validation workflows for engineering drawings (shipped — Green status)','Centralised Parts Management support portal as a single interface for the team (live — Green status)','Two process improvement PoCs addressing identified workflow gaps (proposed — Amber, under stakeholder review)']},
+{h:'Stakeholder Engagement & Feedback',ul:['Presented PoCs to domain leads and collected structured feedback on scope and feasibility','Used feedback to refine proposals before escalation for review','Coordinated with cross-functional stakeholders to validate that the portal addressed real user needs']},
+{h:'Tools & Context',tools:['Stakeholder Interviews','Process Mapping','AI/ML Workflows','Portal Development','RAG Status Tracking','Process Documentation','Cross-functional Coordination']},
+{h:'Key Insight',p:'The hardest part of operational improvement is correctly diagnosing the problem first. Talking to the right people early prevents building the wrong thing entirely.'}
 ]},
 'nit-exp':{title:'NIT Calicut — UAV Mechanical Design & Simulation',tag:'Mechanical Design · ANSYS · Gazebo · PX4 · Jun–Jul 2025',sections:[
 {h:'Context',p:'Two-month research internship at the National Institute of Technology Calicut, working on UAV research involving mechanical design, structural validation, and simulation environment development.'},
@@ -1281,12 +1314,12 @@ const MODALS={
 {h:'Tools',tools:['ANSYS Workbench','Static Structural FEA','Von Mises Stress Analysis','SolidWorks','Factor of Safety Analysis','Parametric CAD']},
 {h:'Key Insight',p:'Every geometry change that reduces stress concentration adds weight. Every weight reduction must be re-simulated. The CAD–ANSYS iteration loop is where most of the actual engineering work happens — and learning to decide when results are \'good enough\' is its own engineering skill.'}
 ]},
-'ai-parts':{title:'AI-Driven Parts Management',tag:'AI · Industrial Operations · Trane Technologies · Jan 2026 – Present',sections:[
-{h:'Problem',p:'Engineering drawings hold dense, unstructured information — part numbers, tolerances, materials, specifications — spread across thousands of documents. Manual extraction is slow, inconsistent, and doesn\'t scale to modern procurement demands.'},
-{h:'My Contribution',ul:['AI-driven attribute extraction and validation workflows for engineering drawings','Analysis of part attributes across multiple drawing types','Built a centralised Parts Management support portal','Proposed two process improvement proof-of-concepts to enhance operational efficiency and user engagement']},
-{h:'Tools & Context',tools:['AI/ML Extraction Pipelines','Engineering Drawing Interpretation','Attribute Validation','Parts Management Systems','Portal Development','Process Improvement']},
-{h:'Key Insight',p:'The hardest part of industrial AI isn\'t the model — it\'s encoding engineering domain knowledge to guide the pipeline. Engineering drawings have implicit conventions that take years to internalize. That expertise is what makes AI-extracted data trustworthy.'},
-{h:'Lesson Learned',p:'Industrial AI adoption is constrained by trust, not capability. The engineer\'s role shifts from doing the work to validating the machine\'s interpretation of it.'}
+'ai-parts':{title:'AI-Driven Parts Management — Trane Technologies',tag:'Process Improvement · AI · Stakeholder Coordination · Jan 2026 – Present',sections:[
+{h:'Problem Discovery',p:'Through conversations with domain teams, I identified that parts management at Trane had three core friction points: unstructured data in engineering drawings requiring manual extraction, fragmented support channels, and workflow gaps causing repeated escalations.'},
+{h:'What I Built',ul:['AI-driven attribute extraction and validation workflows for engineering drawings','Centralised Parts Management support portal — one interface replacing fragmented channels','Two process improvement PoCs targeting identified workflow gaps, proposed to stakeholders for review']},
+{h:'Stakeholder & Feedback Loop',ul:['Mapped stakeholder needs through direct conversations before scoping solutions','Presented PoCs to domain leads and incorporated structured feedback into revised proposals','Tracked deliverable status using RAG framework (Green/Amber) to communicate progress clearly']},
+{h:'Tools',tools:['Stakeholder Discovery','Process Mapping','AI/ML Workflows','Portal Development','RAG Status Tracking','Requirements Documentation']},
+{h:'Key Insight',p:'Operational improvement starts with diagnosis, not solutions. Getting the problem statement right — through conversations, not assumptions — is the actual work.'}
 ]},
 'baja-proj':{title:'SAE BAJA — Roll Cage Design & Structural Validation',tag:'Structural Engineering · ANSYS FEA · SAE BAJA Standards · Jun 2025 – Feb 2026',sections:[
 {h:'Responsibility',p:'As Roll Cage Design Head for HBaja Xlr8 Racing TKMCE, I led structural validation of the ATV roll cage — the most safety-critical component of the vehicle.'},
@@ -1330,5 +1363,6 @@ function closeModalDirect(){document.getElementById('modal-overlay').classList.r
 function closeModal(e){if(e.target===document.getElementById('modal-overlay'))closeModalDirect();}
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModalDirect();});
 </script>
+
 </body>
 </html>
